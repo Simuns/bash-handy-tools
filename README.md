@@ -16,4 +16,4 @@ Will run on any flavor of linux, but its nice to have evince as pdf viewer combi
 # wwcon.sh
 Will write how to later
 
-# author: Símun Højgaard Lutzen | simunhojgaard@gmail.com
+## Author: Símun Højgaard Lutzen | simunhojgaard@gmail.com
