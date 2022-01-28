@@ -7,10 +7,13 @@ With the usage of shecksums, the script determines changes done on .tex files an
 
 #### prerequisites
 Will run on any flavor of linux, but its nice to have evince as pdf viewer combined with code as IDE as there is autolaunch options for those tools (Not required)
-### Usage:
+### How to:
 1. Write following line to your .bashrc file `alias autocompiletex='bash ~/path/to/script/autocompiletex.sh'
 2. Run: `source .bashrc´
 3. cd to target latex directory and run `autocompile´
 ##
 
-#author: Símun Højgaard Lutzen | simunhojgaard@gmail.com
+# wwcon.sh
+Will write how to later
+
+# author: Símun Højgaard Lutzen | simunhojgaard@gmail.com
