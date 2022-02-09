@@ -11,13 +11,13 @@ pdflatex $texfile
 
 #Open PDF in evince
 read -p "Open PDF in evince ? (y/n)?" CONT
+read -p "Open library in code? (y/n)?" CONT2
 if [ "$CONT" = "y" ]; then
   filewoext=`echo "$texfile" | cut -d'.' -f1`
   evince $filewoext.pdf&
 fi
 #Open library in code
-read -p "Open library in code? (y/n)?" CONT
-if [ "$CONT" = "y" ]; then
+if [ "$CONT2" = "y" ]; then
   code .;
 fi
 
